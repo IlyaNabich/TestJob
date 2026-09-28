@@ -1,0 +1,14 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "test-postgres (docker compose)",
+            "Group": "Servers",
+            "Host": "db",
+            "Port": 8080,
+            "MaintenanceDB": "tetsjob",
+            "Username": "postgres",
+            "PassFile": "/pgpass",
+            "SSLMode": "prefer"
+        }
+    }
+}
